@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="design.css" />
+    <title>Tailwind Test</title>
+  </head>
+  <body class="bg-black m-0 p-0 scroll-smooth">
+    <header class="w-full text-center">
+      <nav
+        class="flex justify-around w-full bg-orange-500 z-50 rounded-b-lg fixed max-md:px-10"
+      >
+        <div class="logo my-3.5 font-bold mx-5 font-sans text-2xl text-white">
+          Tailwind CSS
+        </div>
+        <ul class="flex justify-around mx-5 my-3.5">
+          <a
+            href="#"
+            class="font-semibold text-l block cursor-pointer mx-3 text-white ease-in-out duration-500 hover:text-orange-900"
+            >Home</a
+          >
+          <a
+            href="#servise"
+            class="font-semibold text-l block mx-3 cursor-pointer text-white ease-in-out duration-500 hover:text-orange-900"
+            >Service</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-l mx-3 block text-white cursor-pointer ease-in-out duration-500 hover:text-orange-900"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-l mx-3 block text-white ease-in-out cursor-pointer duration-500 hover:text-orange-900"
+            >Contact Us</a
+          >
+        </ul>
+      </nav>
+    </header>
+    <section
+      class="main-sec flex justify-between max-w-full bg-black min-h-screen max-md:justify-center max-md:flex-col"
+    >
+      <div
+        class="content-main text-start my-28 mx-20 text-white mr-14 max-md:mb-4"
+      >
+        <h3 class="mt-20 text-5xl font-bold mb-5">
+          tailwind
+          <span class="font-extrabold text-orange-400">CSS</span>
+        </h3>
+        <p class="text-2xl text-slate-200">
+          "This website is a tutorial for learning Tailwind. I hope <br />
+          you like it, as it is entirely <br />
+          made using HTML and Tailwind."
+        </p>
+        <a
+          href="#projects"
+          class="block text-2xl font-bold py-3 px-3 decoration-0 bg-orange-400 rounded-xl text-center border-orange-400 border-4 w-52 my-8 duration-1000 ease-in-out hover:bg-transparent"
+          >View Projects</a
+        >
+      </div>
+      <img
+        src="tailwind image.png"
+        class="mr-10 rounded-full w-96 h-96 mt-32 max-md:w-80 max-md:h-80 max-md:ml-10 max-md:mt-12 max-md:mb-10"
+        alt=""
+      />
+    </section>
+    <section class="servise min-h-screen text-center" id="servise">
+      <h3
+        class="servise-title text-4xl my-6 cursor-pointer hover:bg-orange-400 hover:text-white hover:border-orange-400 duration-700 font-bold font-sans text-center text-orange-400 border-4 border-orange-300 w-60 py-4 rounded-xl max-md:ml-20 max-md:my-6"
+      >
+        Service
+      </h3>
+      <div class="service-cards flex justify-center flex-row flex-wrap w-full">
+        <div
+          class="service-card w-80 shadow-2xl rounded-2xl text-center m-8 duration-500 cursor-pointer ease-in-out hover:translate-y-3 border-4 border-orange-400 hover:shadow-orange-400"
+        >
+          <img
+            src="tailwind image.png"
+            class="w-72 rounded-xl h-72 ml-3 my-8 mt-5"
+            alt=""
+          />
+          <h3 class="text-3xl font-bold text-center mb-4 text-orange-300">
+            Tailwind
+          </h3>
+          <p class="text-center text-2xl font-bold mb-4 text-white">
+            "Tailwind" is the best framework for CSS, so we should learn it.
+          </p>
+        </div>
+        <div
+          class="service-card w-80 shadow-2xl rounded-2xl text-center m-8 duration-500 cursor-pointer ease-in-out hover:translate-y-3 border-4 border-orange-400 hover:shadow-orange-400"
+        >
+          <img
+            src="tailwind image.png"
+            class="w-72 rounded-xl h-72 ml-3 my-8 mt-5"
+            alt=""
+          />
+          <h3 class="text-3xl font-bold text-center mb-4 text-orange-300">
+            Tailwind
+          </h3>
+          <p class="text-center text-2xl font-bold mb-4 text-white">
+            "Tailwind" is the best framework for CSS, so we should learn it.
+          </p>
+        </div>
+        <div
+          class="service-card w-80 shadow-2xl rounded-2xl text-center m-8 duration-500 cursor-pointer ease-in-out hover:translate-y-3 border-4 border-orange-400 hover:shadow-orange-400"
+        >
+          <img
+            src="tailwind image.png"
+            class="w-72 rounded-xl h-72 ml-3 my-8 mt-5"
+            alt=""
+          />
+          <h3 class="text-3xl font-bold text-center mb-4 text-orange-300">
+            Tailwind
+          </h3>
+          <p class="text-center text-2xl font-bold mb-4 text-white">
+            "Tailwind" is the best framework for CSS, so we should learn it.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-sec text-center w-full min-h-screen">
+      <h3
+        class="servise-title text-4xl my-6 cursor-pointer hover:bg-orange-400 hover:text-white hover:border-orange-400 duration-700 font-bold font-sans text-center text-orange-400 border-4 border-orange-300 w-60 py-4 rounded-xl max-md:ml-20 max-md:my-6"
+      >
+        Projectes
+      </h3>
+      <div class="project-cards flex justify-center flex-row flex-wrap w-full">
+        <div
+          class="project-card w-80 rounded-2xl border-4 border-orange-300 text-center m-6 p-4 relative h-60 flex justify-center items-center duration-700 cursor-pointer"
+        >
+          <img
+            src="images/my portofolio.png"
+            class="absolute inset-0 rounded-2xl h-full w-full"
+            alt=""
+          />
+          <div
+            class="project-content absolute backdrop-blur-md w-full p-6 duration-700"
+          >
+            <h3 class="text-center text-orange-500 text-3xl font-bold mb-3">
+              My Portofolio
+            </h3>
+            <a
+              href="https://github.com/ahmedfathy112/My-Portoflio.git"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 mr-5 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-id-card"></i
+            ></a>
+            <a
+              href="https://ahmedfathy112.github.io/My-Portoflio/"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-eye"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card w-80 rounded-2xl border-4 border-orange-300 text-center m-6 p-4 relative h-60 flex justify-center items-center duration-700 cursor-pointer"
+        >
+          <img
+            src="images/sure wheels 1.png"
+            class="absolute inset-0 rounded-2xl h-full w-full"
+            alt=""
+          />
+          <div
+            class="project-content absolute backdrop-blur-md w-full p-6 duration-700"
+          >
+            <h3 class="text-center text-orange-500 text-3xl font-bold mb-3">
+              Sure Wheels
+            </h3>
+            <a
+              href="https://github.com/ahmedfathy112/Sure-Wheels.git"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 mr-5 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-id-card"></i
+            ></a>
+            <a
+              href="https://ahmedfathy112.github.io/Sure-Wheels/"
+              target="blank"
+              class="rounded-full p-1 text-3xl text-orange-400 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-eye"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card w-80 rounded-2xl border-4 border-orange-300 text-center m-6 p-4 relative h-60 flex justify-center items-center duration-700 cursor-pointer"
+        >
+          <img
+            src="images/cave dev 1.png"
+            class="absolute inset-0 rounded-2xl h-full w-full"
+            alt=""
+          />
+          <div
+            class="project-content absolute backdrop-blur-md w-full p-6 duration-700"
+          >
+            <h3 class="text-center text-orange-500 text-3xl font-bold mb-3">
+              Cave Dev
+            </h3>
+            <a
+              href="https://github.com/ahmedfathy112/cave-dev.git"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 mr-5 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-id-card"></i
+            ></a>
+            <a
+              href="https://ahmedfathy112.github.io/cave-dev/"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-eye"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card w-80 rounded-2xl border-4 border-orange-300 text-center m-6 p-4 relative h-60 flex justify-center items-center duration-700 cursor-pointer"
+        >
+          <img
+            src="images/island 1.png"
+            class="absolute inset-0 rounded-2xl h-full w-full"
+            alt=""
+          />
+          <div
+            class="project-content absolute backdrop-blur-md w-full p-6 duration-700"
+          >
+            <h3 class="text-center text-orange-500 text-3xl font-bold mb-3">
+              Island Food
+            </h3>
+            <a
+              href="https://github.com/ahmedfathy112/island-food.git"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 mr-5 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-id-card"></i
+            ></a>
+            <a
+              href="https://ahmedfathy112.github.io/island-food/"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-eye"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card w-80 rounded-2xl border-4 border-orange-300 text-center m-6 p-4 relative h-60 flex justify-center items-center duration-700 cursor-pointer"
+        >
+          <img
+            src="images/shofha 1.png"
+            class="absolute inset-0 rounded-2xl h-full w-full"
+            alt=""
+          />
+          <div
+            class="project-content absolute backdrop-blur-md w-full p-6 duration-700"
+          >
+            <h3 class="text-center text-orange-500 text-3xl font-bold mb-3">
+              Shofha Site
+            </h3>
+            <a
+              href="https://github.com/ahmedfathy112/shofha-site.git"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 mr-5 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-id-card"></i
+            ></a>
+            <a
+              href="https://ahmedfathy112.github.io/shofha-site/"
+              target="_blank"
+              class="rounded-full p-1 text-3xl text-orange-400 duration-700 hover:text-orange-600"
+              ><i class="fa-solid fa-eye"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
